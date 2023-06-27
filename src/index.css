@@ -14,7 +14,8 @@ body {
 }
 
 .box {
-  width: 400px;
+  width: 90%;
+  max-width: 400px;
   padding: 20px;
   border-radius: 8px;
   background-color: #fff;
@@ -24,8 +25,8 @@ body {
 h2 {
   margin-top: 0;
   text-align: center;
-  font-size: 24px; /* Increase font size */
-  color: #000; /* Update text color */
+  font-size: 24px;
+  color: #000;
 }
 
 .input-group {
@@ -37,15 +38,16 @@ h2 {
 .label {
   margin-right: 10px;
   font-weight: bold;
-  color: #000; /* Update text color */
+  color: #000;
 }
 
 .range-slider {
   width: 100%;
   -webkit-appearance: none;
+  appearance: none;
   height: 5px;
   border-radius: 5px;
-  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); /* Gradient background */
+  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
   outline: none;
 }
 
@@ -57,7 +59,7 @@ h2 {
   border-radius: 50%;
   background: #8247e5;
   cursor: pointer;
-  transition: background-color 0.3s ease; /* Add smooth transition */
+  transition: background-color 0.3s ease;
 }
 
 .range-slider::-moz-range-thumb {
@@ -66,11 +68,13 @@ h2 {
   border-radius: 50%;
   background: #8247e5;
   cursor: pointer;
-  transition: background-color 0.3s ease; /* Add smooth transition */
+  transition: background-color 0.3s ease;
 }
-.title{
+
+.title {
   font-size: 30px;
 }
+
 .checkbox-group {
   display: flex;
   align-items: center;
@@ -79,7 +83,7 @@ h2 {
 
 .checkbox-label {
   margin-right: 15px;
-  color: #000; /* Update text color */
+  color: #000;
 }
 
 .button-group {
@@ -108,21 +112,21 @@ h2 {
 }
 
 .button-generate:checked {
-  background-color: #ff5722; /* Update button color when checked */
+  background-color: #ff5722;
 }
 
 .button-copy:checked {
-  background-color: #f44336; /* Update button color when checked */
+  background-color: #f44336;
 }
 
 .button:hover {
-  background-color: #555; /* Change button background color on hover */
+  background-color: #555;
   color: #fff;
 }
 
 .button-generate:hover,
 .button-copy:hover {
-  background-color: #222; /* Change button background color on hover */
+  background-color: #222;
 }
 
 .password-section {
@@ -132,14 +136,14 @@ h2 {
 
 .password-label {
   font-weight: bold;
-  color: #000; /* Update text color */
+  color: #000;
 }
 
 .password-value {
   font-family: monospace;
   margin-top: 5px;
   font-size: 20px;
-  color: #000; /* Update text color */
+  color: #000;
 }
 
 .password-strength-section {
@@ -149,5 +153,5 @@ h2 {
 
 .password-strength-label {
   font-weight: bold;
-  color: #000; /* Update text color */
+  color: #000;
 }
